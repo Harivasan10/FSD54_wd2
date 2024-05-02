@@ -1,0 +1,32 @@
+Objects and their internal representation in JavaScript:
+
+Objects are one of the most important data types in JavaScript. They are used to store various keyed collections and more complex entities. In this blog, I will explain what objects are, how they are created, and how they are represented internally by the JavaScript engine.
+
+    Objects:
+    
+Objects, in JavaScript, can be compared to objects in real life. For example, a car is an object that has properties like make, model, color, and methods like start, stop, accelerate, etc. Similarly, in JavaScript, an object is a standalone entity that has properties and methods.
+
+Properties are variables or functions that are attached to the object. They define the characteristics and behavior of the object. Methods are functions that are associated with the object and can perform some actions on it.
+
+Objects can be created using the Object() constructor or the object literal syntax. For example, we can create an object named myCar with some properties and methods as follows:
+
+JavaScript
+
+We can access or modify the properties or methods of an object using the dot notation or the bracket notation.
+
+
+
+How are objects represented internally?
+JavaScript engines use different ways to represent objects internally. One of the most popular engines is V8, which is developed by Google and used in Chrome and Node.js. V8 uses two modes to represent objects: fast mode and dictionary mode.
+
+Fast mode
+In fast mode, objects are stored like structs, in which there is no computation involved in property access. Each object has a pointer to a map, which describes its structure and layout. The map contains information such as the number and names of properties, their types, their offsets in memory, etc.
+
+
+In fast mode, V8 would represent this object as follows:
+
+!fast mode
+
+As you can see, the object has a pointer to a map, which contains information about its properties. The properties are stored in a contiguous block of memory, with fixed offsets. To access a property, V8 simply adds the offset to the base address of the object and reads or writes the value.
+
+Fast mode is efficient for objects that have a fixed set of properties and do not change frequently. However, if we add or delete properties from an object, or change their types, V8 would have to create a new map for the object and copy its properties to a new block of memory. This would be costly and slow down the performance

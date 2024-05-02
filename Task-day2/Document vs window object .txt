@@ -1,0 +1,43 @@
+Introduction:
+
+# Explain what are objects in JavaScript and how they are used to store and manipulate data.
+
+# Give some examples of common objects in JavaScript, such as String, Array, Date, etc.
+
+# Introduce the document and window objects as two special objects that represent the web page and the browser window respectively.
+
+# Mention that the document and window objects are often used to access and modify the HTML elements and the browser environment.
+
+Document Object:
+
+# Explain that the document object represents the HTML document that is loaded in the browser.
+# Mention that the document object is a property of the window object and can be accessed with window.document or just document.
+# List some of the properties and methods of the document object that are commonly used, such as:
+  document.body: returns the <body> element of the document.
+  document.title: returns or sets the title of the document.
+  document.getElementById(): returns the element with the specified id attribute.
+  document.createElement(): creates a new element with the specified tag name.
+  document.addEventListener(): attaches an event handler to the document or an element.
+# Give some examples of how to use the document object to manipulate the HTML elements, such as changing their style, content, or attributes.
+
+Window Object:
+
+# Explain that the window object represents the browser window that contains the document.
+# Mention that the window object is the global object in JavaScript and all global variables and functions are properties of it.
+#List some of the properties and methods of the window object that are commonly used, such as:
+  window.innerWidth and window.innerHeight: return the width and height of the browser window’s viewport.
+  window.location: returns or sets the URL of the current document.
+  window.alert(), window.prompt(), and window.confirm(): display dialog boxes to interact with the user.
+  window.open() and window.close(): open and close new browser windows or tabs.
+  window.setTimeout() and window.setInterval(): execute a function after a specified delay or repeatedly.
+#Give some examples of how to use the window object to interact with the browser environment, such as navigating to a different URL, displaying messages, or creating timers.
+
+Conclusion:
+
+# Summarize the main points of your blog and highlight the differences between document and window objects in JavaScript.
+
+# Provide some tips or best practices for using document and window objects effectively, such as: 
+                  Avoid using global variables or functions as they may conflict with other scripts or libraries. 
+                  Use strict mode to prevent errors or bugs caused by implicit declarations or conversions.
+                  Use querySelector() or querySelectorAll() methods to select elements using CSS selectors instead of using getElementById() or getElementsByTagName().
+                  Use addEventListener() method to attach event handlers instead of using inline attributes such as onclick or onmouseover

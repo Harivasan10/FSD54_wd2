@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
+
+section {
+    padding: 40px 0;
+    position: relative;
+    display: flex;
+
+}
+
+#timer .countdown-wrapper {
+    margin: 0 auto;
+}
+
+#timer .card-header {
+    font-family: Geneva, Verdana, sans-serif, 50px;
+
+}
+
+#timer #countdown {
+    font-family: sans-serif;
+    text-align: center;
+    color: white;
+    padding: 40px 0;
+}
+
+#countdown .timer {
+    margin: 10px;
+    padding: 20px;
+    font-size: 90px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+
+#timer #wishes-content {
+    font-family: 'Dancing Script', cursive;
+    font-size: xx-large;
+    word-wrap: break-word;
+    word-break: break-all;
+}
+
+#multicolortext {
+    color: brown;
+}

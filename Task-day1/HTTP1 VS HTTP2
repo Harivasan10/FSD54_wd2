@@ -1,0 +1,31 @@
+Introduction:
+
+# Explain what HTTP is and why it is important for the Web.
+
+# Give a brief history of HTTP development and mention the release dates of HTTP1.1 and HTTP2.
+
+# State the main purpose of your blog: to compare and contrast HTTP1.1 and HTTP2 in terms of their technical features and performance.
+
+HTTP1.1:
+
+# Describe the basic workings of HTTP1.1, such as the request-response cycle, the textual format, the use of TCP connections, and the keep-alive header .
+
+# Highlight the drawbacks of HTTP1.1, such as the head-of-line blocking, the plain text transmission, the repeated header information, and the lack of server push.
+
+# Provide some examples or statistics to illustrate the inefficiency or latency of HTTP1.1.
+
+HTTP2:
+
+# Describe the major changes that HTTP2 made to HTTP1.1, such as the binary framing layer, the multiplexing, the header compression, and the server push.
+
+# Highlight the benefits of HTTP2, such as the faster speed, the reduced overhead, the improved security, and the proactive delivery.
+
+# Provide some examples or statistics to illustrate the efficiency or performance of HTTP2.
+
+Conclusion:
+
+# Summarize the main points of your blog and restate your purpose .
+
+# Give your opinion or recommendation on which protocol is better or more suitable for different scenarios.
+
+# Invite your readers to share their feedback or questions on your blog.

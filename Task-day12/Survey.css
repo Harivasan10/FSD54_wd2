@@ -1,0 +1,26 @@
+form {
+
+    padding-top: 20px;
+    padding-left: 20px;
+    border: groove;
+}
+
+.checked {
+    color: yellow;
+    padding-left: 10px;
+}
+
+.required .control-label:after {
+    content: "*";
+    color: red;
+}
+
+.btd {
+    background-color: grey;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.ex {
+    padding-top: 10px;
+}

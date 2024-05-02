@@ -1,0 +1,16 @@
+.adduserbox {
+  border: 2px solid rgb(255, 255, 255, 0.4);
+  padding: 20px;
+
+}
+
+.editbox {
+  padding: 20px;
+  border: 2px solid rgb(255, 255, 255, 0.4);
+
+}
+
+body {
+  background-image: url('https://res.cloudinary.com/dllzfgf6x/image/upload/v1679671139/cld-sample-2.jpg');
+
+}
